@@ -1,0 +1,17 @@
+body {
+  background-color: lavender; }
+
+.outer-container {
+  margin: 0 auto;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .outer-container button {
+    width: 50%; }
+  .outer-container input {
+    width: 50%; }
+
+/*# sourceMappingURL=styles.css.map */

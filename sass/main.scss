@@ -1,0 +1,21 @@
+@import "variables.scss";
+
+body {
+  background-color: $main-color;
+}
+
+.outer-container {
+  margin: 0 auto;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  button {
+    width: 50%;
+  }
+  input {
+    width: 50%;
+  }
+}
