@@ -1,0 +1,15 @@
+$main: lightblue;
+
+.box {
+  background: $main;
+  border: 1px solid black;
+  height: 100vh;
+  text-align: center;
+  button {
+    font-weight: bold;
+    text-align: center;
+    background: darken($main, 40%);
+    border: none;
+    color: white;
+  }
+}
